@@ -1,1 +1,10 @@
-// TODO
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerContent {
+  width: 100%;
+  max-width: 800px;
+}
