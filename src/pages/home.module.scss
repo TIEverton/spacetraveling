@@ -1,1 +1,51 @@
-// TODO
+.cardPost {
+  
+  h2 {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 1.75rem;
+
+    cursor: pointer;
+
+    transition: color .3s ease-in-out;
+    &:hover {
+      color: #FF57B2;
+    }
+  }
+
+  p {
+    color: #D7D7D7;
+    font-size: 1.125rem;
+    margin: 0.4rem 0rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 0rem 2rem 0rem;
+
+    span {
+      svg {
+        margin-right: 0.6rem;
+      }
+
+      display: flex;
+      align-items: center;
+      color: #BBBBBB;
+      font-size: 0.875rem;
+      margin-right: 1rem;
+    }
+  }
+}
+
+.loadingNewPosts {
+  color: #FF57B2;
+  font-size: 1.125rem;
+  font-weight: 600;
+
+  transition: filter .3s ease-in-out;
+  &:hover {
+    filter: brightness(90%);
+  }
+}
