@@ -8,3 +8,22 @@
   width: 100%;
   max-width: 800px;
 }
+
+.detailsPost {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 0rem 2rem 0rem;
+
+    span {
+      svg {
+        margin-right: 0.6rem;
+      }
+
+      display: flex;
+      align-items: center;
+      color: #BBBBBB;
+      font-size: 0.875rem;
+      margin-right: 1rem;
+    }
+}

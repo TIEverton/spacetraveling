@@ -38,7 +38,7 @@ export default function Home() {
           <div className={styles.cardPost}>
             <h2>Como utilizar Hooks</h2>
             <p>Pensando em sincronização em vez de ciclos de vida.</p>
-            <div>
+            <div className={commonStyles.detailsPost}>
               <span>
                 <RiCalendar2Fill size={18} /> 15 Mar 2021
               </span>
@@ -52,7 +52,7 @@ export default function Home() {
           <div className={styles.cardPost}>
             <h2>Como utilizar Hooks</h2>
             <p>Pensando em sincronização em vez de ciclos de vida. </p>
-            <div>
+            <div className={commonStyles.detailsPost}>
               <span>
                 <RiCalendar2Fill size={18} /> 15 Mar 2021
               </span>
@@ -66,7 +66,7 @@ export default function Home() {
           <div className={styles.cardPost}>
             <h2>Como utilizar Hooks</h2>
             <p>Pensando em sincronização em vez de ciclos de vida. </p>
-            <div>
+            <div className={commonStyles.detailsPost}>
               <span>
                 <RiCalendar2Fill size={18} /> 15 Mar 2021
               </span>
@@ -80,7 +80,7 @@ export default function Home() {
           <div className={styles.cardPost}>
             <h2>Como utilizar Hooks</h2>
             <p>Pensando em sincronização em vez de ciclos de vida. </p>
-            <div>
+            <div className={commonStyles.detailsPost}>
               <span>
                 <RiCalendar2Fill size={18} /> 15 Mar 2021
               </span>
@@ -94,7 +94,7 @@ export default function Home() {
           <div className={styles.cardPost}>
             <h2>Como utilizar Hooks</h2>
             <p>Pensando em sincronização em vez de ciclos de vida. </p>
-            <div>
+            <div className={commonStyles.detailsPost}>
               <span>
                 <RiCalendar2Fill size={18} /> 15 Mar 2021
               </span>
